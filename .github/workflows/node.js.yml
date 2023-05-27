@@ -25,4 +25,4 @@ jobs:
       run: npm install
 
     - name: Run tests
-      run: npm test -- --watch=false --no-progress
+      run: npm test -- --no-watch --no-progress
